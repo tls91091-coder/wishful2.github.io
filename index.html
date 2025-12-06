@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -7,6 +7,7 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="wishful23.css" />
+  <script src="wishful.js" defer></script>
 </head>
 
 <body>
@@ -14,9 +15,13 @@
   <header>
     <div class="logo">wishful.art</div>
 
-    <nav>
-      <a href="wishful-signin.html" class="nav-link">sign in</a>
-      <a href="wishful-register.html" class="nav-link register">register</a>
+    <nav class="main-nav">
+      <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <div class="nav-links">
+        <a href="wishful-signin.html" class="nav-link">sign in</a>
+        <a href="wishful-register.html" class="nav-link register">register</a>
+        <a href="wishful-contact.html" class="nav-link">contact</a>
+      </div>
     </nav>
   </header>
 
@@ -50,9 +55,9 @@
           <p>we provide regular updates and improvements</p>
         </div>
 
-        <div class="info-box"></div>
-        <div class="info-box"></div>
-        <div class="info-box"></div>
+        <div class="info-box"><h3>merch</h3><p>prints, stickers and more</p></div>
+        <div class="info-box"><h3>commissions</h3><p>custom artwork by request</p></div>
+        <div class="info-box"><h3>community</h3><p>share and discuss art</p></div>
       </div>
 
       <div class="improvements">
@@ -77,6 +82,5 @@
 
 </body>
 </html>
-
 
 
